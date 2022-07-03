@@ -2,10 +2,22 @@
   "sections": {
     "rich-text": {
       "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>TESTING TEXT</p>",
+            "heading-size": "h1"
+          }
+        }
+      },
       "settings": {
         "text": "TESTING HELLO WORLD.",
         "text_style": "body"
-      }
+      },
+      "block_order": [
+        "heading"
+      ]
     }
   },
   "order": [
