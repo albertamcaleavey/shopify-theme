@@ -1,3 +1,4 @@
+<!-- CSS -->
 <style type="text/css">
   .template-404 .title + * {
     margin-top: 1rem;
@@ -10,13 +11,19 @@
   }
 </style>
 
+<!-- Tags are querying the shopify store for data, and pulling that data into the template -->
 <div class="template-404 page-width page-margin center">
+  <!-- Subtext -->
   <p>
+    <!-- Querying the template object for data to display on the page  -->
+    <!-- t (translate) filter: Returns a string of translated text for a given translation key from a locale file. -->
     {{ 'templates.404.subtext' | t }}
   </p>
+  <!-- Title -->
   <h1 class="title">
     {{ 'templates.404.title' | t }}
   </h1>
+  <!-- Link to continue shopping -->
   <a href="{{ routes.all_products_collection_url }}" class="button">
     {{ 'general.continue_shopping' | t }}
   </a>
