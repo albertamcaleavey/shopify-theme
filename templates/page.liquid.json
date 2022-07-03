@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "rich-text": {
+      "type": "rich-text",
+      "settings": {
+        "text": "TESTING HELLO WORLD.",
+        "text_style": "body"
+      }
+    }
+  },
+  "order": [
+    "rich-text"
+  ]
+}
