@@ -1,6 +1,8 @@
+// This template is for/ should be applied to regular static pages
 {
   "sections": {
     "main": {
+      // main-page is a type of section that corresponds to the main-page section in the sections directory
       "type": "main-page",
       "settings": {
         "padding_top": 28,
@@ -8,6 +10,7 @@
       }
     }
   },
+  // defines in which order the sections will appear (if there are multiple sections)
   "order": [
     "main"
   ]
